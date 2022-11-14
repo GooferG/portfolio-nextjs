@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import React from 'react';
+import laptopImg from '../public/assets/laptop-unsplash.jpg';
 
 const About = () => {
   return (
@@ -10,26 +12,30 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I am</h2>
           <p className="py-2 text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-            impedit ad officia eum nam assumenda quaerat asperiores ut obcaecati
-            ratione cumque, explicabo dolorem. Eum commodi similique optio
-            obcaecati ex quia?
+            Creative, detail-oriented, Front-End Engineer and problem solver
+            with professional experience in building and debugging JavaScript
+            components. I enjoy working with new frameworks and am always eager
+            to learn more. I am well-versed in JavaScript, HTML, CSS, and
+            React/Next.
           </p>
           <p className="py-2 text-gray-600">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
-            velit quaerat itaque sed repudiandae doloribus tempora rem eligendi,
-            suscipit corrupti.
+            When looking back growing up in Brazil, I don't recall a time where
+            a computer was not in front of me. I remember always wanting to be
+            able to type faster, understand how the command line worked and how
+            websites were being built. I was also very much into gaming and
+            would always default to my computer for any task that I needed to
+            accomplish Growing up in Brazil wasn't dificult, but opportunities
+            like there are in America are not as common, so my mom decided to
+            move out to California when I was thirteen. I came with her,
+            bringing my dream of working with technology and computers a bit
+            closer to reality.
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">
             Check out my latest projects!
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <img
-            className="rounded-xl"
-            src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
-            alt="/"
-          />
+          <Image className="rounded-xl" src={laptopImg} alt="/" />
         </div>
       </div>
     </div>

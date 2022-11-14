@@ -18,16 +18,19 @@ const Projects = () => {
             title="MovieFriend"
             bgImg={movieFinderImg}
             projectUrl="/moviefriend"
+            techStack="ReactJS | Public API"
           />
           <ProjectItem
             title="Meme Generator"
             bgImg={memeGeneratorImg}
             projectUrl="/meme"
+            techStack="ReactJS"
           />
           <ProjectItem
             title="Pizza Police"
             bgImg={pizzaImg}
             projectUrl="/pizza"
+            techStack="ReactJS | NodeJS | MongoDB"
           />
         </div>
       </div>
