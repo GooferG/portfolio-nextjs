@@ -19,16 +19,16 @@ const About = () => {
             React/Next.
           </p>
           <p className="py-2 text-gray-600">
-            When looking back growing up in Brazil, I don't recall a time where
-            a computer was not in front of me. I remember always wanting to be
-            able to type faster, understand how the command line worked and how
-            websites were being built. I was also very much into gaming and
-            would always default to my computer for any task that I needed to
-            accomplish Growing up in Brazil wasn't dificult, but opportunities
-            like there are in America are not as common, so my mom decided to
-            move out to California when I was thirteen. I came with her,
-            bringing my dream of working with technology and computers a bit
-            closer to reality.
+            When looking back growing up in Brazil, I don&apos;t recall a time
+            where a computer was not in front of me. I remember always wanting
+            to be able to type faster, understand how the command line worked
+            and how websites were being built. I was also very much into gaming
+            and would always default to my computer for any task that I needed
+            to accomplish Growing up in Brazil wasn&apos;t dificult, but
+            opportunities like there are in America are not as common, so my mom
+            decided to move out to California when I was thirteen. I came with
+            her, bringing my dream of working with technology and computers a
+            bit closer to reality.
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">
             Check out my latest projects!

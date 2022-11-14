@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import React from 'react';
+import laptopFormImg from '../public/assets/laptop-form.jpg';
 import { AiOutlineMail, AiOutlineTwitter } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import Image from 'next/image';
 
 const Contact = () => {
   return (
@@ -16,17 +18,13 @@ const Contact = () => {
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
-              <img
-                className="rounded-xl hover:scale-105 ease-in duration-300"
-                src="https://images.unsplash.com/photo-1544006659-f0b21884ce1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8M3x8bWFuJTIwbGFwdG9wfHwwfHx8fDE2MzEzODAzNzc&ixlib=rb-1.2.1&q=80&w=1080"
-                alt=""
-              />
+              <Image className={laptopFormImg} alt="Laptop being used" />
               <div>
                 <h2 className="py-2">Name here</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4">
-                  I am available for freelance or full-time positions. Contact
-                  me and let's talk.
+                  I&apos;m available for freelance or full-time positions.
+                  Contact me and let`s talk.
                 </p>
               </div>
               <div>
